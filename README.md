@@ -1,14 +1,15 @@
-# web-project-1
+# Year 1 static web travel magazine project
 
-This is a travel magazine website done for a web development module in school, where they required 5 html pages with different types of news or articles. The website is expected to have appropriate media, interactive codes and some UI/UX design.
-The website consists of 1 main page and 5 article pages.
-Only 5 links on the main page can be directed to the article page, they are as follow:
-1. Salar De Uyuni (Destinations)
-2. Sahara Desert (Destinations)
-3. Balckadore Eye (Stays) 
-4. Island of Capri (Stays) 
-5. Singapore (Food) 
+This travel magazine website was developed as part of a web development Year 1 module, involving the creation of 5 HTML pages featuring various news and articles. The project specifications included incorporating appropriate media, and interactive codes.
 
-The rest of the articles beyong coursewok requirements are still in development. 
+The website comprises one main page and five article pages. The main page features five links directing users to specific articles:
 
-This travel magazine website is created with the combination of knowledge learned from the web development module, references from w3school (for JS and CSS) and free bootstraps online.
+Salar De Uyuni (Destinations)
+Sahara Desert (Destinations)
+Blackadore Eye (Stays)
+Island of Capri (Stays)
+Singapore (Food)
+
+Please note that the development of additional articles beyond the coursework requirements is ongoing. 
+
+This travel magazine website was crafted using knowledge acquired during the web development module, supplemented by references from W3Schools (for JS and CSS) and the utilization of free templates (for the homepage and Island of Capri) sourced online.
