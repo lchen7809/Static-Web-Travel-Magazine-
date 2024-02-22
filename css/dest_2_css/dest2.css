@@ -1,0 +1,304 @@
+/*
+
+dest2.css
+
+*/
+
+
+@import url(http://fonts.googleapis.com/css?family=Abel);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color:white;
+  color: #555;
+  font-family: 'Abel', sans-serif;
+  font-size: 100%;
+  font-weight:normal;
+  margin: 0; }
+
+
+* {
+  box-sizing: border-box;
+}
+
+
+/* .header {
+  padding: 10px 16px;
+  background: #555;
+  color: #f1f1f1;
+} */
+
+
+/*Nav Bar*/
+
+#navbar {
+  background-color: #333; /* Black background color */
+  position: fixed; /* Make it stick/fixed */
+  top: 0; /* Stay on top */
+  width: 100%; /* Full width */
+  transition: top 0.3s; /* Transition effect when sliding down (and up) */
+}
+
+/* Style the navbar links */
+#navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+}
+
+#navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+/* Sticky Logo */
+.logo {
+  background-color: rgb(255,255,255);
+  text-align: center;
+  z-index: 1;
+}
+
+a:link, a:visited{
+  text-decoration: none;
+  color: black;
+}
+a:hover{
+  color: #B17F51 ;
+}
+
+
+.content {
+  padding: 30px;
+}
+
+.content .title{
+  text-align: center;
+  padding: 30px 30px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 102px;
+}
+
+
+/* Parallax Scolling of pictures */
+.bg1, .bg2, .bg3 {
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.bg1 {
+  /* The image used */
+  background-image: url("../../img/dest_2_img/background1.jpg");
+  /* Set a specific height */
+  min-height: 700px;
+}
+
+.bg2 {
+  background-image: url("../../img/dest_2_img/background2.jpg");
+  min-height: 500px;
+}
+
+.bg3 {
+  background-image: url("../../img/dest_2_img/background3.jpg");
+  min-height: 500px;
+}
+
+/* Article Texts */
+.section {
+    height:400px;
+    width:100%;
+    border-top:1px solid #777;
+    padding:20px 0;
+    margin:auto;
+
+}
+
+.para1 {
+    display:table;
+    table-layout:fixed;
+    width:100%;
+    /* margin-bottom:15px; */
+    padding-top:15px;
+    text-align: justify;
+    font-size: 18px;
+}
+
+
+.para1 .text-col, .para1 .img-col {
+     padding:0 2% 0 1%;
+     /* padding: 20px 60px; */
+}
+
+.para1 .img-col {
+     padding:0 2% 0 1%;
+     /* padding: 20px 90px; */
+}
+
+.text-col, .img-col {
+    display: table-cell;
+}
+
+
+.para3 {
+  height:150px;
+  background-color: white;
+  font-size: 20px;
+  /* padding: 20px 20px; */
+  width:100%;
+  /* margin-bottom:15px; */
+  /* padding-top:50px;
+  padding-left: 50px;
+  padding-right: 50px; */
+  padding: 50px;
+  text-align: justify;
+}
+
+
+/* para2 column row */
+
+.row{
+  height:600px;
+  background-color: white;
+  font-size: 20px;
+  width:100%;
+  /* margin-bottom:15px; */
+  padding-top:100px;
+}
+
+
+.col-left .zoom img, .col-right .zoom img {
+  margin-bottom: 10px;
+  margin-right: 12px;
+}
+
+.col-img{
+ width: 50%;
+ float: left;
+ /* padding-bottom: 70px; */
+}
+
+.col-text{
+  float: right;
+  width: 45%;
+  /* padding-left: 20px; */
+  padding-right: 30px;
+  text-align: justify;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.grid-row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*Image zoom*/
+.zoom{
+  text-align: center;
+  padding-top: 50px;
+  margin: 0 auto;
+  z-index: -1;
+
+}
+
+.zoom .img-0 img{
+  object-fit: cover;
+  object-position: 0 15%;
+}
+
+.zoom .img-1 img{
+  object-fit: cover;
+  object-position: 0 30%;
+}
+
+.zoom .img-2 img{
+  object-fit: cover;
+  object-position: 0 45%;
+}
+
+.zoom .img-3 img{
+  object-fit: cover;
+  object-position: 0 60%;
+}
+
+.zoom .img-4 img{
+  object-fit: cover;
+  object-position: 0 75%;
+}
+
+.zoom img:hover {
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1);
+  transition: transform 0.5s;
+}
+
+
+
+/* Back to Top */
+footer .primary-button a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  background-color: black;
+  padding: 15px 24px;
+  text-transform: uppercase;
+  font-size: 15px;
+  color: #fff;
+  font-weight: 300;
+  text-decoration: none;
+  letter-spacing: 0.5px;
+}
+
+
+/* share */
+.share {
+  text-align: center;
+}
+
+.share .icons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+
+img[alt*="fb"], img[alt*="ins"], img[alt*="tt"], img[alt*="gg"]{
+   margin: 25px 20px;
+}
+
+
+@media screen and (max-width: 800px) {
+  .left, .main, .right {
+    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+}
