@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/stay_2_css/stays2.css"/>
+
+    <div id="navbar">
+      <a href="index.html">Home</a>
+      <a href="index.html#destination">Destination</a>
+      <a href="index.html#stay">Stay</a>
+      <a href="index.html#food">Food</a>
+    </div>
+
+  </head>
+
+
+  <body>
+
+    <div class="logo" id="myLogo">
+      <a href="index.html"> <h2>Traveloka</h2> </a>
+      <!-- <a href="destinations.html"> <h2>Destinations</h2> </a>
+      <a href="food.html"> <h2>Food</h2> </a>
+      <a href="stays.html"> <h2>Stays</h2> </a>
+    if i put these they need to link back to index.html but the correct section-->
+    </div>
+
+
+    <div class="content">
+
+      <div class="title" id="top">
+        <h1>Eco Resorts Coming Soon in Belize: Blackadore Caye</h1>
+      </div>
+
+      <div class="bg1"></div>
+
+      <div class="para1">
+
+        <p>
+          Blackadore Caye, A Restorative Island is one of the world’s most exclusive island retreats, located in beautiful Belize behind the world’s second largest barrier reef. Originally acquired by Leonardo DiCaprio with the vision to create the future home of the greenest luxury development ever built– this vision is now a reality. Blackadore Caye is the World’s first truly restorative island development – a development completely powered by renewable energy and designed to increase the biological health of species on the island and in the waters around it.</p>
+        <p>
+          The project will contain a world-class luxury hotel resort centered on health, wellness and sustainability, off-the-grid ‘living homes’ a research station on climate change and habitat impacts, leading restoration programs and more.</p>
+
+        <p>Much of this resort’s development has been kept under wraps. When it was announced Leonardo DiCaprio had embarked on the creation of an island resort here, with news of the project first emerging in 2015, it immediately rose to international prominence.
+
+        Partnering with the owner of neighbouring resort CayoEspanto, DiCaprio set about creating a luxury hideaway that could benefit the prosperity of the surrounding environment, both on land and in the ocean. DiCaprio hopes that by developing an eco-resort that benefits the natural environment, he’ll set a model for other eco-tourism projects like these in other parts of the world.
+        </p>
+      </div>
+
+      <div class="bg2"></div>
+
+      <div class="para1">
+        <h2>Sustainable Tourism in Belize</h2>
+        <p>
+          The resort will have a collection of energy efficient bungalows and sustainable luxury villas, alongside a main lodge with beach club, racquet club, jetty and education centre. Mangrove has been planted to stop the island’s natural erosion and native species are being reintroduced.
+          The resort’s grand opening is planned for 2020 but with new information yet to be revealed, we’ll just have to wait to hear more.</p>
+
+        <p>
+          The platform that would hold the villas would shelter ocean life underneath.
+          Almost half of the island would be dedicated to research alone,
+          and there would a full-fledged research center on location as well.
+          DiCaprio himself said in an interview at the time that his project would “change the world,”
+          offering a footprint for how island resorts of the future should be like and how to thrive while helping local communities thrive, too.</p>
+
+
+      </div>
+
+      <div class="bg3"></div>
+
+
+      <div class="para1">
+        <h2>Unique Experience in Blackadore Caye</h2>
+
+        <p>
+          Don’t miss: Once this island resort opens, it will place you within easy reach of world famous scuba diving sites like the Great Blue Hole. <a href="#">www.restorativeislands.com</a></p>
+
+        <p>
+          Blackadore Caye is the World's first truly restorative island development – a development completely powered by renewable energy and designed to increase the biological health of species on the island and in the waters around it.
+
+          The project will contain a world-class luxury hotel resort centered on health, wellness and sustainability, off-the-grid 'living homes' a research station on climate change and habitat impacts, leading restoration programs and more.</p>
+      </div>
+
+    </div>
+
+
+    <footer>
+
+
+      <div class="share">
+
+        <h4>Share This Article</h4>
+
+        <div class="icons">
+          <a href="https://facebook.com"> <img src="img/stay_2_img/facebook_icon.png" alt="fb" width= "35px" height = "35px"> </a>
+          <a href="https://instagram.com"> <img src="img/stay_2_img/instagram_icon.png" alt="ins" width= "30px" height = "30px"> </a>
+          <a href="https://twitter.com"> <img src="img/stay_2_img/twitter_icon.jpeg" alt="tt" width= "30px" height = "30px"> </a>
+          <a href="https://google.com"> <img src="img/stay_2_img/google_icon.png" alt="gg" width= "30px" height = "30px"> </a>
+        </div>
+      </div>
+
+      <!--Addition of back to top button -->
+      <div class="primary-button">
+        <a href="#top">Back To Top</a>
+      </div>
+
+
+    </footer>
+
+    <!-- Addition of js script of sticky logo -->
+
+    <script>
+      var prevScrollpos = window.pageYOffset;
+
+      var header = document.getElementById("myLogo");
+      var sticky = header.offsetTop;
+
+      window.onscroll = function() {
+        if (window.pageYOffset > sticky) {
+          header.classList.add("sticky");
+        }
+        else {
+          header.classList.remove("sticky");
+        }
+
+        var currentScrollPos = window.pageYOffset;
+        if (prevScrollpos > currentScrollPos) {
+          document.getElementById("navbar").style.top = "0";
+        }
+        else {
+          document.getElementById("navbar").style.top = "-50px";
+        }
+        prevScrollpos = currentScrollPos;
+
+      }
+
+
+    </script>
+
+  </body>
+
+
+</html>
