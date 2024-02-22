@@ -4,11 +4,11 @@ This travel magazine website was developed as part of a web development Year 1 m
 
 The website comprises one main page and five article pages. The main page features five links directing users to specific articles:
 
-Salar De Uyuni (Destinations)
-Sahara Desert (Destinations)
-Blackadore Eye (Stays)
-Island of Capri (Stays)
-Singapore (Food)
+1. Salar De Uyuni (Destinations)
+2. Sahara Desert (Destinations)
+3. Blackadore Eye (Stays)
+4. Island of Capri (Stays)
+5. Singapore (Food)
 
 Please note that the development of additional articles beyond the coursework requirements is ongoing. 
 
