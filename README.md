@@ -1,6 +1,6 @@
 # Year 1 static web travel magazine project
 
-A live demo can be viewed from this link:
+A live desktop demo can be viewed from this link:
 https://test.d38t080z8qtzo3.amplifyapp.com/#destination
 
 This travel magazine website was developed as part of a Web Development Year 1 module, involving the creation of 5 HTML pages featuring various news and articles. The project specifications included incorporating appropriate media, and interactive codes.
